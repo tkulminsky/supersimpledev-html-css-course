@@ -1,0 +1,72 @@
+body {
+  height: 3000px;
+}
+div {
+  font-family: Arial;
+}
+
+.card-shirt {
+  display: inline-block;
+  position: relative;
+}
+
+.photo-shirt {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.sale {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  color: white;
+  background-color: black;
+  font-size: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.sale:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.sale:active {
+  opacity: 0.4;
+  color:lightskyblue
+}
+
+.grey-window {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background-color: rgb(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: height 0.2s ease;
+  
+}
+
+.grey-window:hover {
+  height: 110px
+}
+
+.add-to-card {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+

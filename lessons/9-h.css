@@ -1,0 +1,33 @@
+.bar {
+      height: 40px;
+      width: 600px;
+      border-width: 1px;
+      border-color: white;
+      border-radius: 15px;
+      font-size: 20px;
+      padding-left: 12px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+      border: none;
+      margin-top: 15px;
+    }
+
+    .bar:hover {
+      opacity: 0.7;
+    }
+
+    .google {
+      width: 300px;
+      cursor: pointer;
+    }
+    
+    .buttonbot {
+      margin-top: 25px;
+      height: 30px;
+      width: 120px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .divmain {
+      text-align: center;
+    }

@@ -1,0 +1,84 @@
+div {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 3000px;
+  margin: 0;
+}
+
+.left-sidebar-1 {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(33, 33, 33);
+  padding-top: 15px;
+}
+
+.left-sidebar-1:hover {
+  opacity: 0.99;
+}
+
+.photo {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  border-radius: 60px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.photo:hover {
+  opacity: 0.75;
+}
+
+.left-sidebar-2 {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 76px;
+  background-color: rgb(55, 55, 55);
+}
+
+.left-sidebar-2:hover {
+  opacity: 0.99;
+}
+
+.info-flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.info-title {
+  color: white;
+  font-size: 14px;
+}
+
+.info-title:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+.create-new-title {
+  color: rgb(150, 150, 150);
+  font-size: 21px;
+  cursor: pointer;
+}
+
+.create-new-title:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+.left-sidebar-2-info {
+  padding: 10px;
+  color: rgb(150, 150, 150);
+}
+
+.left-sidebar-2-info:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}

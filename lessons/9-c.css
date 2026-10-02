@@ -1,0 +1,18 @@
+.div {
+  border: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  width: 350px;
+  padding-left: 25px;
+  font-size: 20px;
+}
+
+button {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+button:hover {
+  opacity: 1;
+  background-color: rgb(221, 246, 253);
+  border-width: 1px;
+}

@@ -1,0 +1,71 @@
+div {
+  font-family: Arial;
+}
+
+.main-div {
+  width: 400px;
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.submain-div {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+}
+
+.photo {
+  height: 45px;
+  width: 45px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+.allname-div {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.profile-name {
+  font-weight: bold;
+}
+
+.nickname {
+  margin-left: 5px;
+  color: lightslategray;
+}
+
+.text {
+  margin-bottom: 10px;
+}
+
+.allyoutube {
+  display: flex;
+  overflow: hidden;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+}
+
+.grey-window {
+  width: 85px;
+  height: 85px;
+  background-color: lightgray;
+  padding: 12px;
+}
+
+.youtube-window {
+  flex: 2.5;
+  height: 85px;
+  padding: 12px;
+}
+
+.youtube-text {
+  margin-bottom: 5px;
+  color: lightslategray;
+}

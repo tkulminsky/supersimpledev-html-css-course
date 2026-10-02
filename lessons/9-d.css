@@ -1,0 +1,26 @@
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.div {
+  width: 330px;;
+  background-color: rgb(34, 34, 34);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.install {
+  font-weight: bold;
+  color: white;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.add {
+  color: rgb(165, 165, 165);
+  font-size: 15px;
+}

@@ -1,0 +1,67 @@
+.photo {
+      width: 70px;
+      height: 70px;
+      object-fit: cover;
+      border-radius: 150px;
+      vertical-align: middle;
+      cursor: pointer;
+      transition: 0.1s;
+    }
+
+.photo:hover {
+  opacity: 0.9;
+}
+
+.photo:active {
+  opacity: 0.7;
+}
+
+.logo {
+  display: inline-block;
+  width: 80px;
+  vertical-align: middle;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 25px;
+}
+
+.info {
+  display: inline-block;
+  vertical-align: middle;
+  width: 175px;
+} 
+
+.grey {
+  color: rgb(96, 96, 96);
+}
+
+.oliver {
+  font-weight: bold;
+}
+
+.follow {
+  display: inline-block;
+  vertical-align: middle;
+  transition: 0.1s;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 3px;
+  border-width: 0px;
+  color: white;
+  background-color: rgb(32, 140, 208);
+  height: 25px;
+  width: 60px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:active {
+  opacity: 0.7;
+}

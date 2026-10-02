@@ -1,0 +1,33 @@
+div {
+  font-family: Arial;
+}
+
+.main {
+  width: 300px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(208, 208, 208);
+  border-radius: 5px;
+}
+
+.elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.count {
+  background-color: rgb(0, 119, 255);
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}

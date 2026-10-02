@@ -1,0 +1,51 @@
+p {
+      font-size: 75px;
+      margin-bottom: 30px;
+      margin-top: 0px;
+    }
+
+    input {
+      display: block;
+      width: 700px;
+      height: 70px;
+      margin-bottom: 10px;
+      border: none;
+      background-color: lightgray;
+      font-size: 25px;
+      padding-left: 25px;
+    }
+
+    .now {
+      width: 200px;
+      height: 70px;
+      font-size: 25px;
+      color: white;
+      background-color: black;
+      margin-right: 40px;
+      vertical-align: middle;
+      margin-top: 35px;
+      border: none;
+    }
+
+    .later {
+      width: 250px;
+      height: 70px;
+      font-size: 25px;
+      color: white;
+      background-color: lightgray;
+      vertical-align: middle;
+      margin-top: 35px;
+      border: none;
+      color: black;
+    }
+
+    button:hover {
+      cursor: pointer;
+      opacity: 0.85;
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    button:active {
+      opacity: 0.7;
+      box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+    }
